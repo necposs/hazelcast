@@ -649,6 +649,7 @@
                     <suppressionFiles>owasp-check-suppressions.xml</suppressionFiles>
                 </configuration>
             </plugin>
+            <!--
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
@@ -681,6 +682,7 @@
                 </executions>
                 <inherited>false</inherited>
             </plugin>
+            -->
             <plugin>
                 <groupId>com.hazelcast.maven</groupId>
                 <artifactId>attribution-maven-plugin</artifactId>
