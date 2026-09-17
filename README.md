@@ -6,6 +6,18 @@
 
 ----
 
+## UNOFFICIAL FORK
+
+**This is not the official Hazelcast repository.** This is an unofficial fork that carries
+downstream patches on top of an official Hazelcast release — such as vulnerability fixes and
+dependency version bumps — rather than changing product behavior. It is not affiliated with or
+supported by Hazelcast, Inc.
+
+Its Maven version is suffixed to distinguish it from the official release/Enterprise line, e.g.
+`5.6.0-patch1` for a patch on top of upstream `5.6.0`.
+
+For the official Hazelcast project, see [hazelcast/hazelcast](https://github.com/hazelcast/hazelcast).
+
 ## What is Hazelcast
 
 The world’s leading companies trust Hazelcast to modernize applications and take instant action on data in motion to create new revenue streams, mitigate risk, and operate more efficiently. Businesses use Hazelcast’s unified **real-time data platform** to process **streaming** data, enrich it with historical context and take instant action with standard or **ML/AI-driven automation** - before it is stored in a database or data lake. 
