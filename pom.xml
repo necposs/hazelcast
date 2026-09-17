@@ -304,6 +304,7 @@
                 <groupId>org.owasp</groupId>
                 <artifactId>dependency-check-maven</artifactId>
             </plugin>
+            <!--
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
@@ -332,6 +333,7 @@
                 </executions>
                 <inherited>false</inherited>
             </plugin>
+            -->
         </plugins>
     </build>
 
