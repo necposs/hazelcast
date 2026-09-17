@@ -1,0 +1,4 @@
+jdk:
+  - openjdk17
+install:
+  - ./mvnw -pl hazelcast -am install -DskipTests -B
