@@ -661,11 +661,22 @@
             <version>4.8.184</version>
             <scope>compile</scope>
         </dependency>
+        <!-- Override org.json 20250107 pulled in transitively by everit-json-schema (vulnerable) -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20260814</version>
+            <scope>compile</scope>
+        </dependency>
         <dependency>
             <groupId>com.github.erosb</groupId>
             <artifactId>everit-json-schema</artifactId>
             <version>1.14.6</version>
             <exclusions>
+                <exclusion>
+                    <groupId>org.json</groupId>
+                    <artifactId>json</artifactId>
+                </exclusion>
                 <exclusion>
                     <groupId>com.google.re2j</groupId>
                     <artifactId>re2j</artifactId>
